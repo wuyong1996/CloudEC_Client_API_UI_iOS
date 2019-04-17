@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html style="font-size:50px">
+
+<head>
+  <meta charset="utf-8">
+  <title>WeLink</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <link href="./WeLinkProject/resources/css/border.css" rel="stylesheet">
+  <link href="./WeLinkProject/out_mobile/css/mStyle.css" rel="stylesheet">
+</head>
+
+<body style="background-color: transparent">
+  <div id="root"></div>
+  <script type="text/javascript" src="./Intl.js"></script>
+  <script type="text/javascript" src="./WeLinkProject/out_mobile/libs/util.js"></script>
+  <script type="text/javascript" src="./WeLinkProject/resources/config/userConfig.js"></script>
+  <script type="text/javascript" src="./WeLinkProject/resources/config/serverConfig.js"></script>
+  <script type="text/javascript" src="./WeLinkProject/out_mobile/js/vendor.js"></script>
+  <script type="text/javascript" src="./cordova.js"></script>
+  <script type="text/javascript" src="./WeLinkProject/out_mobile/libs/fastclick.js"></script>
+  <script type="text/javascript" src="./WeLinkProject/out_mobile/libs/pinyinUtil.js"></script>
+  <script type="text/javascript" src="./startIos.js"></script>
+  <!-- FastClickBug方案 -->
+  <script>
+      if ('addEventListener' in document) {
+          window.addEventListener('load', function () {FastClick.attach(document.body);}, false);
+      }
+  </script>
+</body>
+
+</html>
+
+
+
