@@ -1,1 +1,4 @@
 # CloudEC_Client_API_UI_iOS
+## 注意
+默认推荐使用 CloudLinkMeeting_iOS_openSdk
+如果有32位编译需求请使用CloudLinkMeeting_iOS_openSdk-32bit
